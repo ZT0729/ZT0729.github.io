@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>常用</title>
+      <link href="/2021/12/19/%E5%B8%B8%E7%94%A8/"/>
+      <url>/2021/12/19/%E5%B8%B8%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 软件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2021/12/11/hello-world/"/>
       <url>/2021/12/11/hello-world/</url>
@@ -27,7 +46,7 @@
       
         <tags>
             
-            <tag> hexo </tag>
+            <tag> hexo,命令 </tag>
             
         </tags>
       
