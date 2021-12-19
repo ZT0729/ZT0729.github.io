@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>hexo所遇问题</title>
+      <link href="/2021/12/19/hexo%E6%89%80%E9%81%87%E9%97%AE%E9%A2%98/"/>
+      <url>/2021/12/19/hexo%E6%89%80%E9%81%87%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<h1 id="如何对一篇文章增加多个标签，应该使用什么分隔符？"><a href="#如何对一篇文章增加多个标签，应该使用什么分隔符？" class="headerlink" title="如何对一篇文章增加多个标签，应该使用什么分隔符？"></a>如何对一篇文章增加多个标签，应该使用什么分隔符？</h1> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tags: [aaa, bbb]  #要加这个括号！</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>常用</title>
       <link href="/2021/12/19/%E5%B8%B8%E7%94%A8/"/>
       <url>/2021/12/19/%E5%B8%B8%E7%94%A8/</url>
