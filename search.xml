@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>宝塔青龙面板搭建</title>
+      <link href="/posts/d3ec5e24.html"/>
+      <url>/posts/d3ec5e24.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="安装docker"><a href="#安装docker" class="headerlink" title="安装docker"></a>安装docker</h2><p>在宝塔软件商店中搜索 docker 点击安装。<br><img src="https://zt0729-picture-bed.oss-cn-beijing.aliyuncs.com/uTools_1643184300787.png" alt=""></p><h2 id="拉取青龙镜像"><a href="#拉取青龙镜像" class="headerlink" title="拉取青龙镜像"></a>拉取青龙镜像</h2><p>在终端上输入<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull whyour/qinglong</span><br></pre></td></tr></table></figure></p><h2 id="启动青龙"><a href="#启动青龙" class="headerlink" title="启动青龙"></a>启动青龙</h2><p>启动代码，直接复制粘贴到终端，回车<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">docker run -dit \</span><br><span class="line">   -v $PWD/ql/config:/ql/config \</span><br><span class="line">   -v $PWD/ql/log:/ql/log \</span><br><span class="line">   -v $PWD/ql/db:/ql/db \</span><br><span class="line">   -v $PWD/ql/scripts:/ql/scripts \</span><br><span class="line">   -p 5700:5700 \</span><br><span class="line">   --name qinglong \</span><br><span class="line">   --hostname qinglong \</span><br><span class="line">   --restart always \</span><br><span class="line">   whyour/qinglong:latest</span><br></pre></td></tr></table></figure><br>用代码可以查看运行状态<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker ps</span><br></pre></td></tr></table></figure><br><img src="https://zt0729-picture-bed.oss-cn-beijing.aliyuncs.com/uTools_1643184856023.png" alt=""></p><h2 id="登陆青龙面板"><a href="#登陆青龙面板" class="headerlink" title="登陆青龙面板"></a>登陆青龙面板</h2><p>先去服务器控制面板开放 5700 端口，在浏览器输入 ip:5700，这里的 ip 是你服务器的公网 ip。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 青龙面板 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>搭建cloudreve私有云</title>
       <link href="/posts/af971e.html"/>
       <url>/posts/af971e.html</url>
