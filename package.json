@@ -16,7 +16,7 @@
     "gulp-html-minifier-terser": "^6.0.1",
     "hexo": "^5.0.0",
     "hexo-abbrlink": "^2.2.1",
-    "hexo-butterfly-tag-plugins-plus": "^1.0.4",
+    "hexo-butterfly-tag-plugins-plus": "^1.0.12",
     "hexo-deployer-git": "^3.0.0",
     "hexo-electric-clock": "^1.1.0",
     "hexo-generator-archive": "^1.0.0",
